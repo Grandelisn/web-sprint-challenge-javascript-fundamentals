@@ -1,3 +1,26 @@
+/*1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    They both loop through an arrays and analyze its data.
+    .forEach returns nothing. .map returns an new array.  
+
+2. Explain the difference between a callback and a higher order function.
+    A higher order function takes in another function as an argument,
+    A callback is just a term for passing a function as a parameter to another function.  
+    Callback is a parameter, a higher order function is the function that takes that parameter function.
+
+3. What is closure?
+    Two things to look out for: there is a function, there is a variable that a function references which is not defined
+    Closure is the idea of what gets inherited and what data functions have access to.
+
+4. Describe the four rules of the 'this' keyword.
+    implicit binding - whenever a function is called by a preceding dot, the object left of the dot, gets "this".  Eg. calling an obj method
+    explicit binding - when JS .call .bind or .apply are used, this is explicitly defined.  
+    new binding - has to do with constructor functions, whenever a constructor function is used, "this" refers to the specific instance of the obj that is created and returned by the constructor function.
+  global binding - when in the global scope, the value of "this" will be the window/ console object
+5. Why do we need super() in an extended class?
+    It binds the child prototype to the parents, calls the parents constructor and gives us access to the "this" keyword in the constructor.
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+*/
+
 //🚀🚀🚀  Topic #1 Closures 🚀🚀🚀//
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
 Study the code below and explain in your own words why nested function can access the variable internal. */
